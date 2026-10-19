@@ -1,0 +1,34 @@
+{
+	"name": "cmd-mod-rules-warden",
+	"version": "0.0.1",
+	"description": "Hold writes that break your project rules, and send unproven \"done\" claims back for a check",
+	"type": "module",
+	"license": "MIT",
+	"author": "Ahmad Bilal",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahmadbilaldev/cmd-mod-rules-warden.git"
+	},
+	"homepage": "https://github.com/ahmadbilaldev/cmd-mod-rules-warden#readme",
+	"bugs": {
+		"url": "https://github.com/ahmadbilaldev/cmd-mod-rules-warden/issues"
+	},
+	"keywords": [
+		"cmd-mod",
+		"rules",
+		"guardrails",
+		"verification"
+	],
+	"commandcode": {
+		"mods": [
+			"./index.ts"
+		]
+	},
+	"files": [
+		"index.ts",
+		"rules.ts",
+		"evidence.ts",
+		"README.md",
+		"LICENSE"
+	]
+}
